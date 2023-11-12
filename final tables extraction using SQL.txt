@@ -1,0 +1,13 @@
+final table for cyclistic:
+
+https://console.cloud.google.com/bigquery?sq=38969620652:161e9768e2c34df8a5daa0cc46cf349f
+
+final table for google fiber:
+SELECT *
+FROM market_1
+UNION ALL
+SELECT *
+FROM market_2
+UNION ALL
+SELECT *
+FROM market_3
